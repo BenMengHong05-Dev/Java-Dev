@@ -126,8 +126,6 @@ public class Day1{
                 break;
             }
         } while (true);
-
-
         // for loop in java
         for (int h =0;h <numberArr.length;h++){
             if(h == 4){
@@ -135,12 +133,8 @@ public class Day1{
             }
             System.out.println(numberArr[h]);
         }
-        
-
         for(int numberArray : numberArr){
             System.out.println(numberArray);
         }
-
-
     }
 }
